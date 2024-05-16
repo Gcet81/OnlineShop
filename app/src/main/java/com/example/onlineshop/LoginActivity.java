@@ -1,4 +1,4 @@
-package com.example.onlineshop; // Replace with your actual package name
+package com.example.onlineshop;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -22,12 +22,12 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login); // Make sure the layout name matches your XML file name
+        setContentView(R.layout.activity_login);
 
         // Initialize Firebase Auth
         mAuth = FirebaseAuth.getInstance();
 
-        // Linking the elements with their respective IDs
+
         emailEditText = findViewById(R.id.login_email);
         passwordEditText = findViewById(R.id.login_password);
         loginButton = findViewById(R.id.login_button);
@@ -42,11 +42,11 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        // Forgot Password Text click event
+
         forgotPasswordText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Here you might want to open a new Activity or Dialog to handle password reset
+
                 Toast.makeText(LoginActivity.this, "Reset password functionality not implemented", Toast.LENGTH_LONG).show();
             }
         });

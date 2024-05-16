@@ -7,7 +7,7 @@ public class BasketManager {
     private static BasketManager instance;
     private List<BasketItem> basketItems;
 
-    // Private constructor prevents instantiation from other classes
+
     private BasketManager() {
         basketItems = new ArrayList<>();
     }
@@ -39,7 +39,7 @@ public class BasketManager {
         basketItems.add(new BasketItem(shoe, quantity));
     }
 
-    // Optional: Method to clear basket
+
     public void clearBasket() {
         basketItems.clear();
     }

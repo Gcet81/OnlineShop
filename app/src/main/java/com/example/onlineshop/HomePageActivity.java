@@ -49,7 +49,7 @@ public class HomePageActivity extends AppCompatActivity {
     private void showSizeGuidePopup() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         ImageView imageView = new ImageView(this);
-        imageView.setImageResource(R.drawable.shoesize); // Ensure this drawable exists
+        imageView.setImageResource(R.drawable.shoesize);
         builder.setView(imageView);
         builder.setPositiveButton("Close", (dialog, which) -> dialog.dismiss());
         AlertDialog dialog = builder.create();

@@ -13,7 +13,7 @@ public class UserPanelActivity extends AppCompatActivity {
 
     private TextView tvUserEmail;
     private TextView tvOrderDetails;
-    private Button homeButton;  // Add this line to define the button
+    private Button homeButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

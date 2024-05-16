@@ -5,7 +5,7 @@ public class Order {
     private String userId;
     private String address;
 
-    // No-arg constructor needed for Firebase
+
     public Order() {}
 
     public Order(int orderId, String userId, String address) {

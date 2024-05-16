@@ -1,4 +1,4 @@
-package com.example.onlineshop; // Make sure to replace this with your actual package name
+package com.example.onlineshop;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main); // Ensure the layout name matches your XML file name
+        setContentView(R.layout.activity_main);
 
         // Initialize the TextView by finding it by its ID
         TextView welcomeTextView = findViewById(R.id.welcomeText);
@@ -21,10 +21,10 @@ public class MainActivity extends AppCompatActivity {
 
         // Using a Handler to delay the transition to LoginActivity
         new Handler().postDelayed(() -> {
-            // Create an Intent that will start the LoginActivity.
+
             Intent mainIntent = new Intent(MainActivity.this, LoginActivity.class);
             MainActivity.this.startActivity(mainIntent);
-            MainActivity.this.finish(); // This call is used to finish the current activity
+            MainActivity.this.finish();
         }, SPLASH_DISPLAY_LENGTH);
     }
 }

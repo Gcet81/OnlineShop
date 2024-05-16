@@ -1,9 +1,10 @@
 <resources>
     <string-array name="shoe_sizes">
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <!-- Add more sizes as needed -->
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+
     </string-array>
 </resources>

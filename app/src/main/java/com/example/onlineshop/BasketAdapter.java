@@ -61,7 +61,7 @@ public class BasketAdapter extends RecyclerView.Adapter<BasketAdapter.BasketView
             shoePrice = itemView.findViewById(R.id.shoePrice);
             quantity = itemView.findViewById(R.id.quantity);
             shoeImage = itemView.findViewById(R.id.shoeImage);
-            totalAmountTextView = itemView.findViewById(R.id.totalAmountTextView);  // Make sure this ID exists in your layout
+            totalAmountTextView = itemView.findViewById(R.id.totalAmountTextView);
         }
     }
 }
